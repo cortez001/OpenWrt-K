@@ -35,7 +35,7 @@
 已内置以下软件包：
 
 1. LuCI插件：  
-  [luci-app-adguardhome](https://github.com/rufengsuixing/luci-app-adguardhome) :AdGuardHome广告屏蔽工具的luci设置界面  
+  [luci-app-adguardhome](https://github.com/chenmozhijin/luci-app-adguardhome) :AdGuardHome广告屏蔽工具的luci设置界面  
   [luci-app-argon-config](https://github.com/jerrykuku/luci-app-argon-config):Argon 主题设置  
   luci-app-aria2：aria2下载器  
   luci-app-cifs-mount：SMB/CIFS 网络挂载共享客户端  
@@ -48,7 +48,7 @@
   luci-app-nlbwmon：网络带宽监视器  
   luci-app-opkg：软件包  
   [luci-app-openclash](https://github.com/vernesong/OpenClash):可运行在 OpenWrt 上的 Clash 客户端  
-  [luci-app-passwall](https://github.com/xiaorouji/openwrt-passwall/tree/luci)：passwall  
+  [luci-app-passwall](https://github.com/xiaorouji/openwrt-passwall)：passwall  
   [luci-app-passwall2](https://github.com/xiaorouji/openwrt-passwall2)：passwall2  
   luci-app-rclone：Rclone命令行网盘工具设置界面  
   luci-app-samba4：samba网络共享  
@@ -75,7 +75,7 @@
   coremark：cpu跑分测试  
   pciutils：PCI 设备配置工具  
   usbutils：USB 设备列出工具  
-  [cloudflared](https://github.com/cloudflare/cloudflared)：Cloudflare 隧道客户端
+  ~~[cloudflared](https://github.com/cloudflare/cloudflared)：Cloudflare 隧道客户端~~[暂不支持go 1.21](https://github.com/cloudflare/cloudflared/issues/1054)
 
 3. LuCI主题：[Argon](https://github.com/jerrykuku/luci-theme-argon)
 
