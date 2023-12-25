@@ -3,6 +3,18 @@
 ###Proxy
 ##-------------------------------------
 payload:
+
+# > heaven burns red
+  - DOMAIN,heaven-burns-red-assets.akamaized.net
+  - IP-CIDR,91.108.56.0/24
+  - DOMAIN,gl-payment.gree-apps.net
+
+# > huggingface
+  - DOMAIN-SUFFIX,huggingface.co
+
+# > recaptcha
+  - DOMAIN-SUFFIX,recaptcha.net
+
 # > microsoft
   # Bing
   - DOMAIN-SUFFIX,bing.com
@@ -90,6 +102,8 @@ payload:
 #bbs
   - DOMAIN-SUFFIX,tsdm39.com
   - DOMAIN-SUFFIX,sumisora.net
+  - DOMAIN-SUFFIX,keyfc.net
+  - DOMAIN-SUFFIX,v2ex.com
 #bbs end
 
 ##api
@@ -244,7 +258,7 @@ payload:
   - DOMAIN-SUFFIX,lumpofsugar.co.jp
   - DOMAIN-SUFFIX,nekonyansoft.com
   - DOMAIN-SUFFIX,nekoneko-soft.info
-  - DOMAIN-SUFFIX,hikarifield.co.jp
+  - DOMAIN,static.hikarifield.co.jp
   - DOMAIN-SUFFIX,madosoft.net
   - DOMAIN-SUFFIX,marmalade.com
   - DOMAIN-SUFFIX,mangagamer.com
